@@ -1,0 +1,31 @@
+1. Difference between HTTP1.1 vs HTTP2 
+   Image result for Difference between HTTP1.1 vs HTTP2
+As opposed to HTTP/1.1, which keeps all requests and responses in plain text format.
+HTTP/2 uses the binary framing layer to encapsulate all messages in binary format, 
+while still maintaining HTTP semantics, such as verbs, methods, and headers and also faster.
+
+2. http version history 
+1991-0.9
+1996-1.0
+1997-1.1
+2015-2.0
+Draft(2020)-3.0
+ 
+3. List 5 difference between Browser JS(console) vs Nodejs
+S.NoJavascriptNodeJS1.Javascript is a programming language that is used for writing scripts on the website.NodeJS is a Javascript runtime environment.2.Javascript can only be run in the browsers.NodeJS code can be run outside the browser.3.It is basically used on the client-side.It is mostly used on the server-side.4.Javascript is capable enough to add HTML and play with the DOM.Nodejs does not have capability to add HTML tags.5.Javascript can run in any browser engine as like JS core in safari and Spidermonkey in Firefox.Nodejs can only run in V8 engine of google chrome.
+4. what happens when you type a URL in the address bar in the browser?
+1. Browser checks cache for DNS entry to find the corresponding IP address of website.
+It looks for following cache. If not found in one, then continues checking to the next until found.
+* Browser Cache
+* Operating Systems Cache
+* Router Cache
+* ISP Cache
+2. If not found in cache, ISP’s (Internet Service Provider) DNS server initiates a DNS query to find IP address of server that hosts the domain name.
+The requests are sent using small data packets that contain information content of request and IP address it is destined for.
+3. Browser initiates a TCP (Transfer Control Protocol) connection with the server using synchronize(SYN) and acknowledge(ACK) messages.
+4. Browser sends an HTTP request to the web server. GET or POST request.
+5. Server on the host computer handles that request and sends back a response. It assembles a response in some format like JSON, XML and HTML.
+6. Server sends out an HTTP response along with the status of response.
+7. Browser displays HTML content
+8. Finally, Done.
+
